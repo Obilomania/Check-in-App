@@ -1,0 +1,120 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-family: "Questrial", sans-serif;
+  /* background-color: orange; */
+  background-image: url("/images/Vendetta.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  padding: 30px;
+}
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+  background-color: #52c7ee;
+  padding: 10px;
+  border-radius: 10px;
+  transition: 1s;
+}
+nav ul li a:hover {
+  background-color: rgb(255, 0, 191);
+}
+
+header,
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 15vh;
+}
+
+form input {
+  padding: 0.5rem;
+  font-size: 2rem;
+  border: none;
+  background: white;
+  width: 400px;
+  border-end-start-radius: 20px;
+}
+button {
+  border: none;
+  width: 100px;
+  height: 53px;
+  background-color: #52c7ee;
+  color: white;
+  font-size: 20px;
+  transition: 1s;
+}
+button:hover {
+  background-color: rgb(255, 0, 191);
+}
+
+.check-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkings {
+  min-width: 30%;
+  list-style: none;
+}
+.checked {
+  margin: 0.5rem;
+  padding: 0.5rem;
+  background: white;
+  font-size: 1rem;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  transition: 1s;
+  border-radius: 10px;
+}
+.checked li {
+  flex: 1;
+}
+.check-item {
+  padding: 0rem 0.5rem;
+  font-family: "Questrial", sans-serif;
+  font-size: 1rem;
+  border: none;
+  background: white;
+  width: 200px;
+}
+.trash-btn {
+  height: 30px;
+  width: 40px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-left: 100px;
+}
+.fa-trash-can {
+  pointer-events: none;
+}
+.phrase {
+  color: rgb(255, 0, 191);
+  text-align: center;
+  margin-right: 10px;
+}
